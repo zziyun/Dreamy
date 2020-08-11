@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:orientation="vertical">
+
+        <include layout="@layout/toolbar_dedit" />
+
+        <EditText
+            android:id="@+id/tv_9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="8"
+            android:background="#dfddf7"
+            android:gravity="top"
+            android:hint="지난 꿈일기를 작성해주세요."
+            android:padding="20dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right">
+
+            <Button
+                android:id="@+id/dlt_9"
+                android:layout_width="75dp"
+                android:layout_height="38dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/purple_border"
+                android:text="삭제"
+                android:textColor="@color/colorPrimarypurple" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:orientation="vertical">
+
+        <include layout="@layout/toolbar_calendar" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2019년 6월"
+        android:layout_margin="20dp"
+        android:textSize="50dp"
+        android:gravity="center"
+        android:textColor="#9f84ff"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow>
+        <TextView
+            android:id="@+id/sun"
+            android:layout_gravity="center_vertical"
+            android:text="SUN"
+            android:textColor="#adbefd"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/mon"
+            android:layout_gravity="center_vertical"
+            android:text="MON"
+            android:textColor="#adbefd"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/tus"
+            android:layout_gravity="center_vertical"
+            android:text="TUS"
+            android:textColor="#adbefd"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/wed"
+            android:layout_gravity="center_vertical"
+            android:text="WED"
+            android:textColor="#adbefd"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/thu"
+            android:layout_gravity="center_vertical"
+            android:text="THU"
+            android:textColor="#adbefd"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="20dp" />
+            <TextView
+                android:id="@+id/fri"
+                android:layout_gravity="center_vertical"
+                android:text="FRI"
+                android:textColor="#adbefd"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/sat"
+                android:layout_gravity="center_vertical"
+                android:text="SAT"
+                android:textColor="#adbefd"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="20dp" />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/cal_5_26"
+                android:layout_gravity="center_vertical"
+                android:text="26"
+                android:textColor="#ebe6fd"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:textSize="27dp" />
+            <Button
+                android:id="@+id/cal_5_27"
+                android:layout_gravity="center_vertical"
+                android:text="27"
+                android:textColor="#ebe6fd"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:textSize="27dp" />
+            <Button
+                android:id="@+id/cal_5_28"
+                android:layout_gravity="center_vertical"
+                android:text="28"
+                android:textColor="#ebe6fd"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:textSize="27dp" />
+            <Button
+                android:id="@+id/cal_5_29"
+                android:layout_gravity="center_vertical"
+                android:text="29"
+                android:textColor="#ebe6fd"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:textSize="27dp" />
+            <Button
+                android:id="@+id/cal_5_30"
+                android:layout_gravity="center_vertical"
+                android:text="30"
+                android:textColor="#ebe6fd"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:textSize="27dp" />
+            <Button
+                android:id="@+id/cal_5_31"
+                android:layout_gravity="center_vertical"
+                android:text="31"
+                android:textColor="#ebe6fd"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:textSize="27dp"/>
+            <Button
+                android:id="@+id/cal_6_1"
+                android:layout_gravity="center_vertical"
+                android:text="1"
+                android:background="#ffffff"
+                android:textColor="#d0c3ff"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="27dp" />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/cal_6_2"
+                android:layout_gravity="center_vertical"
+                android:text="2"
+                android:background="#ffffff"
+                android:textColor="#d0c3ff"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="27dp" />
+            <Button
+                android:id="@+id/cal_6_3"
+                android:layout_gravity="center_vertical"
+                android:text="3"
+                android:background="#ffffff"
+                android:textColor="#d0c3ff"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="27dp" />
+            <Button
+                android:id="@+id/cal_6_4"
+                android:layout_gravity="center_vertical"
+                android:text="4"
+                android:background="#ffffff"
+                android:textColor="#d0c3ff"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="27dp" />
+            <Button
+                android:id="@+id/cal_6_5"
+                android:layout_gravity="center_vertical"
+                android:text="5"
+                android:background="#ffffff"
+                android:textColor="#d0c3ff"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="27dp" />
+            <Button
+                android:id="@+id/cal_6_6"
+                android:layout_gravity="center_vertical"
+                android:text="6"
+                android:background="#ffffff"
+                android:textColor="#d0c3ff"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="27dp" />
+            <Button
+                android:id="@+id/cal_6_7"
+                android:layout_gravity="center_vertical"
+                android:text="7"
+                android:background="#ffffff"
+                android:textColor="#d0c3ff"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="27dp" />
+            <Button
+                android:id="@+id/cal_6_8"
+                android:layout_gravity="center_vertical"
+                android:text="8"
+                android:background="#ffffff"
+                android:textColor="#d0c3ff"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="27dp" />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/cal_6_9"
+                android:layout_gravity="center_vertical"
+                android:text="9"
+                android:background="#ffffff"
+                android:textColor="#d0c3ff"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="27dp" />
+            <Button
+                android:id="@+id/cal_6_10"
+                android:layout_gravity="center_vertical"
+                android:text="10"
+                android:background="#ffffff"
+                android:textColor="#d0c3ff"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="27dp" />
+            <Button
+                android:id="@+id/cal_6_11"
+                android:layout_gravity="center_vertical"
+                android:text="11"
+                android:background="#ffffff"
+                android:textColor="#d0c3ff"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="27dp" />
+            <Button
+                android:id="@+id/cal_6_12"
+                android:layout_gravity="center_vertical"
+                android:text="12"
+                android:background="#ffffff"
+                android:textColor="#d0c3ff"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="27dp" />
+            <Button
+                android:id="@+id/cal_6_13"
+                android:layout_gravity="center_vertical"
+                android:text="13"
+                android:background="#ffffff"
+                android:textColor="#d0c3ff"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="27dp" />
+            <Button
+                android:id="@+id/cal_6_14"
+                android:layout_gravity="center_vertical"
+                android:text="14"
+                android:background="#ffffff"
+                android:textColor="#d0c3ff"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="27dp" />
+            <Button
+                android:id="@+id/cal_6_15"
+                android:layout_gravity="center_vertical"
+                android:text="15"
+                android:background="#ffffff"
+                android:textColor="#d0c3ff"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="27dp" />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/cal_6_16"
+                android:layout_gravity="center_vertical"
+                android:text="16"
+                android:background="#ffffff"
+                android:textColor="#d0c3ff"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="27dp" />
+            <Button
+                android:id="@+id/cal_6_17"
+                android:layout_gravity="center_vertical"
+                android:text="17"
+                android:background="#ffffff"
+                android:textColor="#d0c3ff"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="27dp" />
+            <Button
+                android:id="@+id/cal_6_18"
+                android:layout_gravity="center_vertical"
+                android:text="18"
+                android:background="#ffffff"
+                android:textColor="#d0c3ff"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="27dp" />
+            <Button
+                android:id="@+id/cal_6_19"
+                android:layout_gravity="center_vertical"
+                android:text="19"
+                android:background="#ffffff"
+                android:textColor="#d0c3ff"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="27dp" />
+            <Button
+                android:id="@+id/cal_6_20"
+                android:layout_gravity="center_vertical"
+                android:text="20"
+                android:background="#ffffff"
+                android:textColor="#d0c3ff"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="27dp" />
+            <Button
+                android:id="@+id/cal_6_21"
+                android:layout_gravity="center_vertical"
+                android:text="21"
+                android:background="#ffffff"
+                android:textColor="#d0c3ff"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="27dp" />
+            <Button
+                android:id="@+id/cal_6_22"
+                android:layout_gravity="center_vertical"
+                android:text="22"
+                android:background="#ffffff"
+                android:textColor="#d0c3ff"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="27dp" />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/cal_6_23"
+                android:layout_gravity="center_vertical"
+                android:text="23"
+                android:background="#ffffff"
+                android:textColor="#d0c3ff"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="27dp" />
+            <Button
+                android:id="@+id/cal_6_24"
+                android:layout_gravity="center_vertical"
+                android:text="24"
+                android:background="#ffffff"
+                android:textColor="#d0c3ff"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="27dp" />
+            <Button
+                android:id="@+id/cal_6_25"
+                android:layout_gravity="center_vertical"
+                android:text="25"
+                android:background="#ffffff"
+                android:textColor="#d0c3ff"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="27dp" />
+            <Button
+                android:id="@+id/cal_6_26"
+                android:layout_gravity="center_vertical"
+                android:text="26"
+                android:background="#ffffff"
+                android:textColor="#d0c3ff"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="27dp" />
+            <Button
+                android:id="@+id/cal_6_27"
+                android:layout_gravity="center_vertical"
+                android:text="27"
+                android:background="#ffffff"
+                android:textColor="#d0c3ff"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="27dp" />
+            <Button
+                android:id="@+id/cal_6_28"
+                android:layout_gravity="center_vertical"
+                android:text="28"
+                android:background="#ffffff"
+                android:textColor="#d0c3ff"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="27dp" />
+            <Button
+                android:id="@+id/cal_6_29"
+                android:layout_gravity="center_vertical"
+                android:text="29"
+                android:background="#ffffff"
+                android:textColor="#d0c3ff"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="27dp" />
+        </TableRow>
+        <TableRow>
+            <Button
+            android:id="@+id/cal_6_30"
+            android:layout_gravity="center_vertical"
+            android:text="30"
+            android:background="#ffffff"
+            android:textColor="#d0c3ff"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="27dp" />
+            <Button
+                android:id="@+id/cal_7_1"
+                android:layout_gravity="center_vertical"
+                android:text="1"
+                android:background="#ffffff"
+                android:textColor="#ebe6fd"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="27dp" />
+            <Button
+                android:id="@+id/cal_7_2"
+                android:layout_gravity="center_vertical"
+                android:text="2"
+                android:background="#ffffff"
+                android:textColor="#ebe6fd"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="27dp" />
+            <Button
+                android:id="@+id/cal_7_3"
+                android:layout_gravity="center_vertical"
+                android:text="3"
+                android:background="#ffffff"
+                android:textColor="#ebe6fd"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="27dp" />
+            <Button
+                android:id="@+id/cal_7_4"
+                android:layout_gravity="center_vertical"
+                android:text="4"
+                android:background="#ffffff"
+                android:textColor="#ebe6fd"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="27dp" />
+            <Button
+                android:id="@+id/cal_7_5"
+                android:layout_gravity="center_vertical"
+                android:text="5"
+                android:background="#ffffff"
+                android:textColor="#ebe6fd"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="27dp" />
+            <Button
+                android:id="@+id/cal_7_6"
+                android:layout_gravity="center_vertical"
+                android:text="6"
+                android:background="#ffffff"
+                android:textColor="#ebe6fd"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="27dp" />
+           </TableRow>
+    </TableLayout>
+</LinearLayout>

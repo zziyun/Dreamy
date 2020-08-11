@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="size">
+        <item >10</item>
+        <item >15</item>
+        <item >20</item>
+    </string-array>
+    <string-array name="font_select">
+        <item >Arial</item>
+        <item >Time New Roman</item>
+        <item >고딕체</item>
+    </string-array>
+</resources>
